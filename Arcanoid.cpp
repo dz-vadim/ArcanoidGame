@@ -37,7 +37,7 @@ void fieldDraw() {
 void fieldClear() {
   for (int x = 0; x < 8; x++) {
     for (int y = 0; y < 16; y++) {
-      arcField[x][y] == 0;
+      arcField[x][y] == 0; // не працює очищення екрану
     }
   }
 }
